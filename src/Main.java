@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Main {
-    private static final String SAVE_IMAGE_PATH = "C:\\Users\\ruqha\\OneDrive\\Desktop\\animals.jpg";
+    private static final String SAVE_IMAGE_PATH = "";
     private static final String RETRIEVE_OUTPUT_PATH = "C:\\Users\\ruqha\\OneDrive\\Desktop\\images\\animal.jpg";
 
     public static void main(String[] args) {
