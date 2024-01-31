@@ -17,10 +17,9 @@ public class ImageRetrieval {
             statement.setInt(1, imageId);
             try (ResultSet resultSet = statement.executeQuery()) {
                 if (resultSet.next()) {
-                    // Retrieve image data
+
                     byte[] imageData = resultSet.getBytes("image_data");
 
-                    // Save image to file
                     saveImageToFile(imageData, outputPath);
                 }
             }

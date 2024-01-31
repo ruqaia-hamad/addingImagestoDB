@@ -15,7 +15,6 @@ public class ImageRepository {
         LocalDateTime now = LocalDateTime.now();
         String formattedDate = now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 
-        // Convert image file to byte array
         Path imagePath = Paths.get(imageUrl);
         byte[] imageData = Files.readAllBytes(imagePath);
 
